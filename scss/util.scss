@@ -1,0 +1,30 @@
+@import "reset.scss";
+
+@mixin flexBox{
+    display: -webkit-box;
+    display: flex;
+}
+@mixin flex($num:1){
+    -webkit-box-flex: $num;
+    flex: $num;
+}
+@mixin flex-direction($dir:row){
+    @if $dir == row{
+        -webkit-box-orient: horizontal;
+        flex-direction:row ;
+    }
+    @else{
+        -webkit-box-orient: vertical;
+        flex-direction:column ;
+    }
+    
+}    
+    @mixin flex-center{
+        @include flexBox;
+        @include flex-direction("column");
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+}
+

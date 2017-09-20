@@ -1,0 +1,48 @@
+@import "main.scss";
+#registerHeader{
+    width: 100%;
+    display: flex;
+     text-align: center;
+    .fanhui,
+    .title,
+    .den_register{
+        flex: 1;
+        height: 3rem;
+        line-height:3rem;
+       
+    }
+    
+    
+}
+#registerContent{
+    width: 100%;
+    margin-top: 3%;
+    span{
+        font-size: 14px;
+        text-indent: 14px;
+        color: #ccc;
+    }
+    input{
+        margin: 0 auto;
+        outline: none;
+        border-radius: 0.5rem;
+        margin-left: 3%;
+        width: 90%;
+        height: 2rem;
+        border: none;
+        text-indent: 1rem;
+    }
+   p{
+       font-size: 12px;
+       color: #aaa;
+       line-height: 2rem;
+       width: 100%;
+       text-align: center;
+   }
+    #butt_Btn{
+        color: #fff;
+        background: #007AFF;
+        font-weight: 800;
+        
+    }
+}

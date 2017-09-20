@@ -1,0 +1,58 @@
+搜索：https://m.nuomi.com/webapp/tuan/homeAjax?city=zz；
+天气：https://m.nuomi.com/webapp/common/ajax?method=getCityByCityCode&filtercnt=1&citycode=268
+加载更多：https://m.nuomi.com/webapp/tuan/list?pn=1&pageSize=10
+https://m.nuomi.com/webapp/tuan/homeAjax?city=zz
+
+http://mcebackup.mogucdn.com/jsonp/get/3%3Fpid=51822&callback=jsonp51822backup 
+
+
+
+
+
+
+
+http://mcebackup.mogucdn.com/jsonp/get/3%3Fpid=51822&callback=jsonp51822backup h5-1701-孙逸婷 17:40:18
+搜索
+		http://list.mogujie.com/module/mget?code=sketch%2ChotWord&callback=httpCb150088678085857&_=1500886780909
+		良品
+		https://list.mogujie.com/search?cKey=h5-shopping&fcid=&pid=9750&searchTag=&sort=pop&page=1&_version=61&_=1500886317356&callback=jsonp1
+		轮播
+		http://mcebackup.mogucdn.com/jsonp/get/3%3Fpid=51822&callback=jsonp51822backup
+		品牌特卖
+		http://mcebackup.mogucdn.com/jsonp/get/3%3Fpid=51827&callback=jsonp51827backup
+		
+		促销直达
+		http://mcebackup.mogucdn.com/jsonp/get/3%3Fpid=51833&callback=jsonp51833backup
+		
+		热门市场
+		http://mcebackup.mogucdn.com/jsonp/get/3%3Fpid=51836&callback=jsonp51836backup
+		footer
+		http://mcebackup.mogucdn.com/jsonp/get/3%3Fpid=4604&callback=jsonp4604backup
+		16点快抢
+		http://mcebackup.mogucdn.com/jsonp/get/3%3Fpid=41119&callback=jsonp41119backup
+		快抢more
+		http://mce.mogucdn.com/jsonp/multiget/3?pids=45516&callback=jsonp45516
+		快抢轮播
+		http://api.mogujie.com/h5/mwp.darwin.get/3/?mw-appkey=100028&mw-t=1500887067367&mw-ttid=NMMain%40mgj_h5_1.0&mw-sign=c70bf6f0663b126c6c17360a4eb278c0&data=%7B%22pid%22%3A%22845%22%7D&callback=mwpCb1&_=1500887067376
+		快抢list
+		http://qiang.mogujie.com//jsonp/fastBuyListActionLet/1?bizKey=rush_main&token=&imgType=1&page=&source=&_=1500887067511&callback=jsonp1
+		
+		分类左面
+		http://mce.mogucdn.com/jsonp/multiget/3?pids=41789%2C4604&callback=jsonp41789_4604
+		分类右面
+		http://mce.mogujie.com/jsonp/makeup/3?pid=41886&_=1500887372251&callback=jsonp2
+		分类综合
+		https://list.mogujie.com/search?cKey=h5-cube&fcid=52014&page=1&_version=1&pid=&q=&cpc_offset=0&_=1500887373108&callback=jsonp3
+
+
+
+
+
+
+https://m.nuomi.com/webapp/tuan/detailAjax?referrer=https%3A%2F%2Fm.nuomi.com%2F&dealId=38565908&city=zz&s=d2eb9c2e7766ef31c01dcc86e354b888
+
+小红书：换一换：http://m.xiaohongshu.com/web_api/sns/v1/trending/hot?num=4
+热门文章：http://m.xiaohongshu.com/web_api/sns/v1/note/hot?page=1
+
+
+https://gsp0.baidu.com/6bNXsjip0QIZ8Aqbn9fN2DC/timg?size=b640_2000000&quality=85&name=cmoive&di=557e9dcd9c2c926080eb8f844982a3c7&sec=0&imgtype=0

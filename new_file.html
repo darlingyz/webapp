@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>telephone number</title>
+<style>
+*{
+    margin:0;
+    padding:0;
+}
+form{
+    width:300px;
+    position:relative;
+    margin:10px;
+}
+fieldset{
+    padding:10px;
+    border:1px dashed #ddd;
+}
+#num_info{
+    display:none;
+    position:absolute;
+    left: 11px;
+    bottom: 37px;
+    width: 170px;
+    height:30px;
+    border:1px solid #ddd;
+    border-bottom:none;
+    background-color:#f6f6f6;
+    font:20px/30px verdana,arial;
+    color:#F90;    
+}
+#num{
+    width:170px;
+    height:24px;
+    line-height:24px;
+    margin-top:40px;
+    border:1px solid #bbb;
+}
+#num:focus{
+    outline:none;
+    border-color:#999;
+}
+p{
+    font-size:12px;
+    color:#999;
+}
+</style>
+</head>
+<body>
+<form>
+    <fieldset>
+        <label id="num_info" for="num"></label>
+        <input type="text" id="num" maxlength="11">
+    </fieldset>
+</form>
+<script>
+/*window.onload=function(){
+    var $numInfo=document.getElementById('num_info'),
+        $num=document.getElementById('num'),
+        _val,_val1,_val2;
+    $num.onkeyup=function(){
+        var val=this.value=this.value.replace(/[^\d]/g,''),
+            len=val.length;    
+        if(val!=''){$numInfo.style.display='block';}
+        if(len<=3){
+            _val=_val1= val.substr(0,3);
+        }
+        else if(len>3&&len<=7){
+            _val=_val2=_val1+"-"+val.substr(3,len);
+        }
+        else if(len>7){
+            _val=_val2+'-'+val.substr(7,len);
+        }
+        $numInfo.innerHTML=_val;
+    }
+    $num.onblur=function(){
+        $numInfo.style.display='none';        
+    }
+}
+console.log(8|1)*/
+var a=1;
+function test(){
+	console.log(a);
+	try{
+		a(3)
+	}catch(e){
+		a=2;
+	}
+	function a(b){
+		a=b;
+	}
+	console.log(++a)//4
+}
+test();
+console.log(a)//1
+</script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+@import "main.scss";
+body,html{
+    background: #eee;
+}
+#loginHeader{
+    width: 100%;
+   display: flex;
+    .login_Ret,
+    .title,
+    .login_Regist{
+        flex: 1;
+        height: 3rem;
+        line-height: 3rem;
+    }    
+}
+#loginContent{
+    width: 100%;
+    margin-top: 4%;
+    input{
+        margin: 0 auto;
+        outline: none;
+        border-radius: 0.5rem;
+        margin-left: 3%;
+        width: 90%;
+        height: 2rem;
+        border: none;
+        text-indent: 1rem;
+        margin-top: 2%;
+    }
+    span{
+         font-size: 14px;
+        text-indent: 14px;
+        color: #ccc;
+    }
+    p{
+        font-size: 12px;
+        margin-left: 3%;
+        line-height:2rem;
+        height: 2rem;
+    }
+    #btn1{
+        color: #fff;
+        background: #007AFF;
+        font-weight: 800;        
+    }
+}
+
